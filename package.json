@@ -1,0 +1,49 @@
+{
+  "name": "kahoot",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@types/classnames": "^2.2.7",
+    "@types/jest": "^24.0.13",
+    "@types/jss": "^9.5.8",
+    "@types/node": "^12.0.2",
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-jss": "^8.6.3",
+    "@types/react-redux": "^7.0.9",
+    "classnames": "^2.2.6",
+    "jss": "^9.8.7",
+    "jss-preset-default": "^4.5.0",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.1",
+    "react-dom": "^16.8.6",
+    "react-jss": "^10.0.0-alpha.16",
+    "react-redux": "^7.0.3",
+    "react-scripts": "3.0.1",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
